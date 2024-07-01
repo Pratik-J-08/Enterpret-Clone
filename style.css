@@ -34,11 +34,10 @@ body::-webkit-scrollbar-track{
     justify-content: space-between;
     background-color: #141219;
     /* max-width: 80rem; */
-    /* Agar text iske peeche se jaate dikh raha he then convert it to sticky */
-    position: sticky; 
-    top: 0;
+    /* position: sticky;  */
+    /* top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
 }
 
 
@@ -222,4 +221,54 @@ body::-webkit-scrollbar-track{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.advantagesec{
+    margin: 100px 272px;
+    display: flex;
+    justify-content: center;
+    gap: 30px ;
+}
+
+.leftline{
+    width: 6px;
+    height: auto;
+    border-radius: 100px;
+    background: linear-gradient( to bottom, #7286FF, #FE7587);
+    /* background-color: white; */
+}
+
+
+.rightcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.smalltitle{
+    color: #7286FF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+.supportingcontent{
+    color: #FFFDFD;
+    font-size: 24px;
+    font-weight: 500;
+    width: 858px;
+    line-height: 48px;
+}
+
+
+.textonlyCTA{
+    color: #7286FF;
+    font-size: 26px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
 }
