@@ -12,6 +12,10 @@
     
 }
 
+body::-webkit-scrollbar-track{
+    background-color: #141219;
+}
+
 .wrapper{
     width: 100vw;
     height: 100vh;
@@ -111,6 +115,8 @@
 
 .herosection{
     background-image:url(assets/Hero/Background\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 68px 80px 48px 80px;
 }
 
@@ -157,3 +163,63 @@
     background: none;
 }
 
+
+.sectiondivider{
+    margin-left: 258px;
+    margin-right: 258px;
+    /* width: 924px; */
+    color: #F5F5F5;
+    opacity: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trustedbrands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.smallheader{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.brandsL1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+
+.brandsL2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+
+.brand-animation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px 80px 56px 80px;
+    /* margin-top: 48px; */
+    /* margin-top: 48px; */
+}
+
+.animationimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
