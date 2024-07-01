@@ -3,4 +3,99 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
+    background-color: #141219;
+}
+
+:root{
+    
+    --gradient : linear-gradient(to right, #7286FF, #FE7587) ;
+    
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.header{
+    margin: 20px 120px 20px 120px ;
+    /* padding: 0px 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #141219;
+    /* max-width: 80rem; */
+    /* Agar text iske peeche se jaate dikh raha he then convert it to sticky */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.listlinks{
+    display: flex;
+    
+}
+
+
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    color: #ffffff;
+    min-height: 60px;
+    gap: 28px;
+}
+
+
+
+.navlinkitem{
+ padding-right: 8px;
+ display: flex;
+ align-items: center;
+ gap: 2px;
+ font-size: 16px;
+ font-weight: 500;
+}
+
+.navCTA{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.secondary-cta{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.primary-cta{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 14px 30px;
+    background: var(--gradient);
+    position: relative;
+    border-radius: 160px;
+    /* border: 3px solid #FE7587;
+    border-radius: 160px ;
+    border-image: linear-gradient(to right, #7286FF, #FE7587) ;
+    border-image-slice: 1; */
+    z-index: 2;
+}
+
+.primary-cta::before {
+    content: '';
+    display: block;
+    width: calc(100% - calc(2px*2));
+    height: calc(100% - calc(2px*2));
+    background: #141219;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 160px;
+    z-index: -1;
 }
