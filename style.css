@@ -129,6 +129,7 @@ body::-webkit-scrollbar-track{
     align-items: center;
     justify-content: center;
     background: none;
+    text-align: center;
     /* line-height: 20; */
 }
 
@@ -271,4 +272,135 @@ body::-webkit-scrollbar-track{
     display: flex;
     align-items: center;
     /* justify-content: center; */
+}
+
+
+
+.feedbackblock{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+
+.customerfeedback{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin-left: 80px;
+    margin-right: 80px; */
+}
+
+
+.globalheader{
+    color: #FFFFFF;
+    margin: 100px 192px 60px 192px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 48px;
+}
+
+
+.feedbacksideleft{
+    margin-left: 80px;
+}
+
+
+.feedbackblock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* align-self: center; */
+}
+
+.typeheader{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    line-height: 48px;
+
+}
+
+
+.typesupport{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight:500;
+    margin-bottom: 16px;
+    line-height: 32px;
+}
+
+
+.clientdetails{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    gap:10px;
+}
+
+.clientdata{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+.gradient-cta{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 14px 30px;
+    background: var(--gradient);
+    position: relative;
+    border-radius: 160px;
+    /* border: 3px solid #FE7587;
+    border-radius: 160px ;
+    border-image: linear-gradient(to right, #7286FF, #FE7587) ;
+    border-image-slice: 1; */
+    z-index: 2;
+    max-width:327px;
+    margin-top:40px ;
+}
+
+.gradient-cta::before {
+    content: '';
+    display: block;
+    width: calc(100% - calc(2px*2));
+    height: calc(100% - calc(2px*2));
+    background: #141219;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 160px;
+    z-index: -1;
+}
+
+
+.allfeedbacks{
+    display: flex;
+    flex-direction: column;
+    /* gap: 100px; */
+    margin-bottom: 100PX;
+    gap: 100PX;
+}
+
+.feedbackleftimage{
+    margin-left: 80px;
+}
+
+.feedbacksideright{
+    margin-right: 138px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feedbackrightimage{
+    margin-right: 138px;
 }
