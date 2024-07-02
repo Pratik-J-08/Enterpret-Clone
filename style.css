@@ -322,7 +322,7 @@ body::-webkit-scrollbar-track{
     margin-top: 18px;
     margin-bottom: 20px;
     line-height: 48px;
-
+    width: fit-content;
 }
 
 
@@ -355,9 +355,13 @@ body::-webkit-scrollbar-track{
     font-weight: 600;
     color: #ffffff;
     padding: 14px 30px;
+    box-sizing: border-box;
     background: var(--gradient);
     position: relative;
     border-radius: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* border: 3px solid #FE7587;
     border-radius: 160px ;
     border-image: linear-gradient(to right, #7286FF, #FE7587) ;
@@ -418,7 +422,7 @@ body::-webkit-scrollbar-track{
     display: flex;
     align-items: start;
     justify-content: flex-start;
-    margin: 0px 80px 20px 80px;
+    margin: 0px 80px 100px 80px;
     gap: 24px;
     /* height: auto; */
 }
@@ -474,4 +478,70 @@ body::-webkit-scrollbar-track{
     font-weight: 300;
     background: none;
     line-height: 32px;
+}
+
+.integrationblock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px 100px 80px;
+}
+
+
+
+.gradient-ctaintegration{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 14px 30px;
+    box-sizing: border-box;
+    background: var(--gradient);
+    position: relative;
+    border-radius: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    /* border: 3px solid #FE7587;
+    border-radius: 160px ;
+    border-image: linear-gradient(to right, #7286FF, #FE7587) ;
+    border-image-slice: 1; */
+    z-index: 2;
+    max-width:327px;
+    margin-top:40px ;
+}
+
+.gradient-ctaintegration::before {
+    content: '';
+    display: block;
+    width: calc(100% - calc(2px*2));
+    height: calc(100% - calc(2px*2));
+    background: #141219;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 160px;
+    z-index: -1;
+}
+
+
+.securityblock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 80px 100px 0px;
+}
+
+.typeheadersec{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    line-height: 48px;
+    width: fit-content;
+}
+
+.feedbacksecimage{
+    margin-right: 0px;
 }
