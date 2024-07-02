@@ -566,6 +566,7 @@ body::-webkit-scrollbar-track {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:12px;
+    padding-bottom: 70px;
     /* box-sizing: border-box; */
     /* background-color: rebeccapurple; */
 }
@@ -606,7 +607,7 @@ body::-webkit-scrollbar-track {
     font-weight: 700;
     border-radius: 160px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     /* text-align: center; */
     justify-content: center;
     /* text-align: center; */
