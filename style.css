@@ -597,6 +597,9 @@ body::-webkit-scrollbar-track {
     background: none;
 }
 
+.cta-logo{
+    background: none;
+}
 
 .bannerCTA{
     background: #000000;
@@ -619,4 +622,91 @@ body::-webkit-scrollbar-track {
     margin-left: 440px;
     margin-right: 440px;
     /* margin-bottom: 70px; */
+}
+
+.footersection{
+    background: #1B1724;
+    border-top: 1px solid #322E3A;
+}
+
+.footer{
+    margin: 80px 80px 0px 80px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    background: none;
+    padding-bottom: 60px;
+}
+
+.Enterpretinfoleft{
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 20px;
+    background: none;
+}
+
+.entpret-logo{
+    background: none;
+}
+
+.logosupporttext{
+ color: #ffffff;
+ font-size: 20px;
+ font-weight: 400;
+ background: none;
+}
+
+.copyrights{
+ color: #ffffff;
+ font-size: 16px;
+ font-weight:400;
+ background: none;
+}
+
+.socials{
+ display: flex;
+ align-items: center;
+ justify-items: flex-start;
+ gap: 8px;
+ padding-top: 28px;
+ background: none;
+}
+
+
+.linksright{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    gap:100px;
+    background: none;
+}
+
+.linkheader{
+    color: #ffffff;
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.linksright{
+    background: none;
+}
+
+.pagelinks{
+    background: none;
+}
+
+.linkpages{
+    background: none;
+}
+
+.targetpages{
+    color: #ffffff;
+    background: none;
+    font-size: 16px;
+    padding-bottom: 24px;
 }
