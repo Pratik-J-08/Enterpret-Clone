@@ -284,13 +284,13 @@ body::-webkit-scrollbar-track{
 
 
 
-.customerfeedback{
-    /* display: flex;
+/* .customerfeedback{
+    display: flex;
     align-items: center;
-    justify-content: center; */
-    /* margin-left: 80px;
-    margin-right: 80px; */
-}
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+} */
 
 
 .globalheader{
@@ -403,4 +403,75 @@ body::-webkit-scrollbar-track{
 
 .feedbackrightimage{
     margin-right: 138px;
+}
+
+
+.feedbackrow1{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 0px 80px 20px 80px;
+    gap: 24px;
+    /* height: auto; */
+}
+.feedbackrow2{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 0px 80px 20px 80px;
+    gap: 24px;
+    /* height: auto; */
+}
+
+/* .toplayergradient{
+    height: 4px;
+    width: auto;
+    background: linear-gradient(to right, #7286FF,#FE7587);
+    z-index: 10;
+    border-radius: 12px 12px 0px 0px;
+    position: absolute;
+
+} */
+
+.feedbackcard{
+    background-color: #1B1724;
+    box-sizing: border-box;
+    padding-top: 38px;
+    padding-bottom: 48px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 12px;
+    border: 1px solid #322E3A;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    min-height: 291px;
+    /* z-index: 5; */
+    /* height: auto; */
+    /* width: auto; */
+    /* gap: 24px; */
+}
+
+.hedadericon{
+    background: none;
+    
+}
+
+.cardheader{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    background: none;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.carddescription{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    background: none;
+    line-height: 32px;
 }
