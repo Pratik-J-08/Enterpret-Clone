@@ -670,8 +670,8 @@ body::-webkit-scrollbar-track {
  display: flex;
  align-items: center;
  justify-items: flex-start;
- gap: 8px;
- padding-top: 28px;
+ gap: 20px;
+ padding-top: 20px;
  background: none;
 }
 
@@ -709,4 +709,77 @@ body::-webkit-scrollbar-track {
     background: none;
     font-size: 16px;
     padding-bottom: 24px;
+}
+
+
+.testimonialcontainer{
+    margin: 100px 80px;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background: url(assets/Testimonials/Testimonial\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.control_desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.companyrepresentive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.comapnylogo{
+    margin-bottom:24px;
+}
+
+.control_desc{
+    margin-bottom: 24px;
+    width: auto;
+    background: none;
+}
+
+.companydesc{
+    margin-left: 148px;
+    margin-right: 148px;
+    /* max-width: 896px; */
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    background: none;
+}
+
+.profiledetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.profilename{
+    color: #ffffff;
+    font-size:20px;
+    font-weight: 700;
+}
+
+.profilepost{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
 }
